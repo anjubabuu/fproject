@@ -93,6 +93,10 @@ class Login extends StatelessWidget {
               ),
             ),
           ),
+    SizedBox(
+      height: 25,
+    ),
+    Text("Don't have an account?"),
     TextButton(
             onPressed: () {
                 Navigator.push(
@@ -106,7 +110,7 @@ class Login extends StatelessWidget {
 
     ),
             child: Text(
-              "Back",
+              "REGISTER",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 16.0,
